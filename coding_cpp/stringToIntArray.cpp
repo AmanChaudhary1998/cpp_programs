@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
 	string str;
-	int temp;
 	cin>>str;
-	int length = str.length();
+	int length = str.size();
+	cout<<length<<endl;
 	int arr[length];
 	int min = 99999;
 	for(int i=0;i<length;i++)
